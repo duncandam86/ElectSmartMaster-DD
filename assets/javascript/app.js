@@ -462,13 +462,13 @@ $(document).ready(function () {
 
 var arrow1 = $("#arrow1");
 var arrow2 = $("#arrow2");
-function toggleUp (element){
-    element.removeClass("icon-arrow-down");
-    element.addClass("icon-arrow-up")
+function toggleUp (x){
+    x.removeClass("icon-arrow-down");
+    x.addClass("icon-arrow-up")
 }
-function toggleDown (element){
-    element.removeClass("icon-arrow-up");
-    element.addClass("icon-arrow-down")
+function toggleDown (x){
+    x.removeClass("icon-arrow-up");
+    x.addClass("icon-arrow-down")
 }
 $("#elecRepInfo").on("click", function () {
     //--- doing it using ternary----
